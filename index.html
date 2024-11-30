@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice to Text Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice to Text Demo</h1>
+
+        <div id="noteContainer">
+            <div class="note-container">
+                <textarea id="noteTextArea" placeholder="Your notes will appear here..."></textarea>
+            </div>
+
+            <div class="button-container">
+                <button id="startButton">Start Recording</button>
+                <button id="stopButton" style="display: none;">Stop Recording</button>
+                <button id="linkButton">Add Link</button>
+                <button id="logoutButton">Logout</button>
+                <button id="downloadButton">Download Notes</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="client.js"></script>
+    <script src="Server.js"></script>
+</body>
+</html>
